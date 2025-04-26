@@ -1,0 +1,39 @@
+
+PSO parameters:
+  particles:  10
+  topology:   1
+  function:   Rastrigin
+  dimensions: 10
+  inertia:    1
+  phi_1:      1
+  phi_2:      1
+  seed:       1253
+
+Loading Rastrigin function.
+Creating swarm.
+
+Solution:220.68
+Solution:159.018
+Solution:144.176
+Solution:138.538
+Solution:174.064
+Solution:217.902
+Solution:238.235
+Solution:153.5
+Solution:156.688
+Solution:174.663
+Initial solution quality: 138.538
+Iteration 1 [ New global best: 104.967 ]
+Iteration 2 [ New global best: 102.422 ]
+Iteration 3 [ New global best: 94.7334 ]
+Iteration 8 [ New global best: 75.8926 ]
+Iteration 17 [ New global best: 74.6498 ]
+Iteration 21 [ New global best: 72.3016 ]
+Iteration 25 [ New global best: 70.955 ]
+Iteration 28 [ New global best: 67.2267 ]
+Iteration 29 [ New global best: 65.8092 ]
+Iteration 31 [ New global best: 61.9279 ]
+Iteration 41 [ New global best: 61.2969 ]
+Iteration 46 [ New global best: 60.5576 ]
+Iteration 47 [ New global best: 53.6027 ]
+Best: 53.6027

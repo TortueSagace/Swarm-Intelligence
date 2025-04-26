@@ -1,0 +1,58 @@
+
+PSO parameters:
+  particles:  20
+  topology:   2
+  function:   Rosenbrock
+  dimensions: 10
+  inertia:    1
+  phi_1:      0.7
+  phi_2:      0.7
+  seed:       1237
+
+Loading Rosenbrock function.
+Creating swarm.
+
+Solution:1.03987e+08
+Solution:1.03446e+08
+Solution:2.07874e+08
+Solution:1.72419e+08
+Solution:7.44896e+07
+Solution:1.41967e+08
+Solution:1.08162e+08
+Solution:2.38791e+08
+Solution:8.61798e+07
+Solution:1.08765e+08
+Solution:1.5723e+08
+Solution:1.88276e+08
+Solution:1.74377e+08
+Solution:3.01182e+08
+Solution:9.84835e+07
+Solution:8.30964e+07
+Solution:1.82452e+07
+Solution:2.16292e+08
+Solution:1.72507e+08
+Solution:5.95602e+07
+Initial solution quality: 1.82452e+07
+Iteration 1 [ New global best: 8.98224e+06 ]
+Iteration 2 [ New global best: 1.2889e+06 ]
+Iteration 5 [ New global best: 1.24605e+06 ]
+Iteration 8 [ New global best: 1.08255e+06 ]
+Iteration 11 [ New global best: 1.04412e+06 ]
+Iteration 12 [ New global best: 1.0236e+06 ]
+Iteration 13 [ New global best: 1.0118e+06 ]
+Iteration 14 [ New global best: 818435 ]
+Iteration 17 [ New global best: 532456 ]
+Iteration 19 [ New global best: 515168 ]
+Iteration 20 [ New global best: 447685 ]
+Iteration 21 [ New global best: 125272 ]
+Iteration 25 [ New global best: 104440 ]
+Iteration 37 [ New global best: 89797 ]
+Iteration 38 [ New global best: 88708.4 ]
+Iteration 40 [ New global best: 87951.3 ]
+Iteration 42 [ New global best: 83069.8 ]
+Iteration 44 [ New global best: 77260.6 ]
+Iteration 46 [ New global best: 70714.5 ]
+Iteration 48 [ New global best: 56946.8 ]
+Iteration 49 [ New global best: 47961.3 ]
+Iteration 50 [ New global best: 43719.5 ]
+Best: 43719.5

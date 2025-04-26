@@ -1,0 +1,67 @@
+
+PSO parameters:
+  particles:  20
+  topology:   2
+  function:   Rosenbrock
+  dimensions: 10
+  inertia:    1
+  phi_1:      0.5
+  phi_2:      0.1
+  seed:       1240
+
+Loading Rosenbrock function.
+Creating swarm.
+
+Solution:7.56898e+07
+Solution:3.75822e+07
+Solution:9.16006e+07
+Solution:1.56883e+08
+Solution:1.3199e+08
+Solution:2.2721e+08
+Solution:1.21792e+08
+Solution:8.30391e+07
+Solution:3.45642e+08
+Solution:1.6703e+08
+Solution:2.50149e+08
+Solution:1.16129e+08
+Solution:1.88281e+08
+Solution:3.42152e+07
+Solution:1.83263e+08
+Solution:4.02591e+07
+Solution:2.01983e+08
+Solution:2.18102e+07
+Solution:2.19383e+08
+Solution:1.41797e+08
+Initial solution quality: 2.18102e+07
+Iteration 3 [ New global best: 1.32659e+07 ]
+Iteration 4 [ New global best: 8.02213e+06 ]
+Iteration 5 [ New global best: 4.84958e+06 ]
+Iteration 6 [ New global best: 2.6584e+06 ]
+Iteration 7 [ New global best: 2.50355e+06 ]
+Iteration 8 [ New global best: 1.57378e+06 ]
+Iteration 9 [ New global best: 1.55231e+06 ]
+Iteration 13 [ New global best: 1.05628e+06 ]
+Iteration 16 [ New global best: 579577 ]
+Iteration 17 [ New global best: 543491 ]
+Iteration 19 [ New global best: 535454 ]
+Iteration 20 [ New global best: 498739 ]
+Iteration 21 [ New global best: 479362 ]
+Iteration 22 [ New global best: 390818 ]
+Iteration 24 [ New global best: 327032 ]
+Iteration 25 [ New global best: 241431 ]
+Iteration 26 [ New global best: 198912 ]
+Iteration 28 [ New global best: 180541 ]
+Iteration 29 [ New global best: 128053 ]
+Iteration 32 [ New global best: 112943 ]
+Iteration 36 [ New global best: 110889 ]
+Iteration 41 [ New global best: 105031 ]
+Iteration 42 [ New global best: 93157.7 ]
+Iteration 43 [ New global best: 88539.4 ]
+Iteration 44 [ New global best: 78737.4 ]
+Iteration 45 [ New global best: 72241.2 ]
+Iteration 46 [ New global best: 70574.8 ]
+Iteration 47 [ New global best: 66390.6 ]
+Iteration 49 [ New global best: 65840.8 ]
+Iteration 50 [ New global best: 56068.2 ]
+Iteration 51 [ New global best: 45778.1 ]
+Best: 45778.1

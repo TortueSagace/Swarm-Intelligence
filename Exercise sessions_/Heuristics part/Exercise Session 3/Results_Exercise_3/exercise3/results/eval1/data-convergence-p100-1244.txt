@@ -1,0 +1,126 @@
+
+PSO parameters:
+  particles:  100
+  topology:   1
+  function:   Rastrigin
+  dimensions: 10
+  inertia:    1
+  phi_1:      1
+  phi_2:      1
+  seed:       1244
+
+Loading Rastrigin function.
+Creating swarm.
+
+Solution:140.688
+Solution:179.771
+Solution:191.741
+Solution:184.782
+Solution:176.802
+Solution:146.538
+Solution:249.783
+Solution:165.114
+Solution:206.197
+Solution:233.591
+Solution:179.66
+Solution:168.046
+Solution:117.344
+Solution:153.499
+Solution:149.759
+Solution:216.907
+Solution:208.8
+Solution:183.788
+Solution:112.424
+Solution:243.406
+Solution:180.439
+Solution:143.429
+Solution:208.18
+Solution:159.792
+Solution:127.306
+Solution:241.962
+Solution:159.695
+Solution:211.707
+Solution:189.321
+Solution:141.757
+Solution:207.429
+Solution:182.402
+Solution:168.05
+Solution:174.375
+Solution:174.239
+Solution:219.448
+Solution:162.78
+Solution:216.886
+Solution:174.944
+Solution:181.449
+Solution:207.253
+Solution:162.519
+Solution:214.934
+Solution:172.741
+Solution:168.215
+Solution:192.966
+Solution:201.261
+Solution:160.638
+Solution:215.783
+Solution:179.392
+Solution:151.215
+Solution:169.509
+Solution:211.206
+Solution:207.65
+Solution:207.378
+Solution:167.065
+Solution:214.388
+Solution:180.274
+Solution:182.035
+Solution:194.806
+Solution:196.853
+Solution:202.705
+Solution:163.869
+Solution:209.523
+Solution:209.819
+Solution:171.921
+Solution:179.444
+Solution:133.304
+Solution:197.773
+Solution:252.561
+Solution:122.735
+Solution:153.384
+Solution:264.249
+Solution:172.226
+Solution:154.229
+Solution:125.445
+Solution:119.282
+Solution:232.211
+Solution:244.277
+Solution:187.062
+Solution:235.038
+Solution:207.275
+Solution:184.13
+Solution:140.845
+Solution:202.843
+Solution:161.266
+Solution:242.024
+Solution:182.338
+Solution:195.296
+Solution:224.707
+Solution:171.215
+Solution:181.118
+Solution:198.292
+Solution:146.346
+Solution:169.394
+Solution:240.046
+Solution:176.402
+Solution:192.885
+Solution:197.092
+Solution:217.293
+Initial solution quality: 112.424
+Iteration 1 [ New global best: 100.899 ]
+Iteration 2 [ New global best: 86.559 ]
+Iteration 9 [ New global best: 78.5402 ]
+Iteration 10 [ New global best: 72.9908 ]
+Iteration 22 [ New global best: 62.1547 ]
+Iteration 24 [ New global best: 61.5651 ]
+Iteration 26 [ New global best: 49.5127 ]
+Iteration 35 [ New global best: 44.9478 ]
+Iteration 38 [ New global best: 44.631 ]
+Iteration 42 [ New global best: 42.8506 ]
+Best: 42.8506

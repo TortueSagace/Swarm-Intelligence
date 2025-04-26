@@ -1,0 +1,25 @@
+#Preconditions:
+#	- move to the current directory the executable "aco"
+#	- check execution permissions of "aco" and the shell scripts 
+
+#Exercise 1:
+	#Point 4(a)
+	./test-ants.sh instances/att532.tsp ants_att532
+	./test-ants.sh instances/ulysses22.tsp ants_ulysses22
+
+	#Point 4(b)
+	Rscript ants-bxp.R
+
+	#Point 4(c)
+	./test-alpha0-beta0.sh instances/att532.tsp alpha-beta_att532
+	./test-alpha0-beta0.sh instances/ulysses22.tsp alpha-beta_ulysses22
+
+	#Point 4(d)
+	Rscript convergence-alpha-beta.R
+
+	#Point 4(e)
+	./test-rho.sh instances/att532.tsp rho_att532
+	./test-rho.sh instances/ulysses22.tsp rho_ulysses22
+
+	#Point 4(f)
+	Rscript rho-bxp.R

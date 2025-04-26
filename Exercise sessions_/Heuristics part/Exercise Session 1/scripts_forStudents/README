@@ -1,0 +1,65 @@
+#Preconditions:
+#   - change your working directory to "scripts" or "scripts_forStudents"
+#	- move "aco" executable to the current directory
+#	- check execution permissions of "aco" and the shell scripts 
+
+#Example execution:
+	./example-execution-test.sh ./instances/ulysses22.tsp mydata
+
+#Plotting boxplots:
+	Rscript example-boxplot.R
+
+#Plotting convergence:
+	Rscript example-convergence.R
+
+	# *** IMPORTANT: Note that, in the example-convergence.R script, we are plotting the results of one single run, that is,
+	# ***            a one-run experiment of each compared algorithm. Unfortunately, for stochastic algorithms one-run is 
+	# ***            not enough to be able to draw any kind of conclusion about the performance of the algorithm.
+	# ***            Indeed, in order to obtain (and present) meaning results we should run each algorithm several times 
+	# ***            under the same conditions (i.e., same problem, same # of function evaluations, same random seeds, etc.)
+	# ***            To have an idea of how the convergence graph changes when you use one run vs several runs, compare the
+	# ***            convergence graph created using the example-convergence.R script ("aco_TSP_ants_convergence.png") and
+	# ***            the one that is already in the folder named "aco_TSP_ants_convergence_Average.png".
+
+
+#Performing a Wilcoxon test:
+	Rscript example-wilcoxon.R
+
+	# *** Wilcoxon signed rank test and Wilcoxon rank sum test:
+	# ***     The Wilcoxon signed rank test is used to test if the distribution of X-Y is symmetric about mu.
+	# ***     More formally, the null hypothesis is H0: the median of the differences of the samples is zero,
+	# ***     (µD = 0).
+	# ***     On the other hand, the Wilcoxon rank sum test (equivalent to the Mann-Whitney test) is used to
+	# ***     test if the distributions of X and Y differ by a location shift of mu. More formally, the null
+	# ***     hypothesis in the Wilcoxon rank sum is H0: the medians of the two samples are equal or equiva-
+	# ***     lently that µ1 = µ2. In this case, the alternative hypothesis is that they differ by some other
+	# ***     location shift (and the one-sided alternative "greater" is that X is shifted to the right of Y).
+
+# Try the next example in R:
+
+		Alg1 <- c(200.1, 190.9, 192.7, 213, 241.4, 196.9, 172.2, 185.5, 205.2, 193.7)
+		Alg2 <- c(392.9, 393.2, 345.1, 393, 434, 427.9, 422, 383.9, 392.3, 352.2)
+#
+		data <- data.frame( algorithm = rep(c("Alg1", "Alg2"), each = 10), result = c(Alg1, Alg2) )
+		print(data)
+#
+		wilcox.test(Alg1, Alg2, paired = TRUE, alternative="two.sided") # paired = TRUE means a Wilcoxon signed rank test, otherwise is the Wilcoxon rank sum test
+
+# ***   The test above returns a p-value = 0.001953, which allows us to safely reject the null hypothesis.
+# ***   Remember that the p-value is the probability of observing an effect at least as extreme as the one in our data if the
+# ***   null hypothesis is true. Therefore, the lower the p-value, the lower the probability of incorrectly rejecting the null 
+# ***   hypothesis.
+
+# Now compare the results of Alg1 and Alg3:
+
+		Alg3 <- c(197.1, 180.9, 194.1, 215, 243.3, 194.9, 168.9, 194.5, 204.9, 195.7)
+
+		data <- data.frame( algorithm = rep(c("Alg1", "Alg3"), each = 10), result = c(Alg1, Alg3 ) )
+
+		print(data)
+
+		wilcox.test(Alg1, Alg3, paired = TRUE, alternative="two.sided")
+#
+# ***   The test above returns a p-value = 0.7592, which does not allow us to reject the null hypothesis.
+# ***   This means that there is not a statistically significant difference between the results obtained
+# ***   by the two algorithms.

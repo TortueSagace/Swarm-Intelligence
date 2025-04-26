@@ -1,0 +1,70 @@
+
+PSO parameters:
+  particles:  20
+  topology:   2
+  function:   Rosenbrock
+  dimensions: 10
+  inertia:    1
+  phi_1:      0.9
+  phi_2:      0.3
+  seed:       1246
+
+Loading Rosenbrock function.
+Creating swarm.
+
+Solution:6.49083e+07
+Solution:3.74114e+07
+Solution:1.11379e+08
+Solution:1.19992e+08
+Solution:1.62253e+08
+Solution:9.57712e+07
+Solution:1.92586e+08
+Solution:2.82935e+07
+Solution:1.02172e+08
+Solution:2.61017e+08
+Solution:1.32034e+08
+Solution:7.72604e+07
+Solution:1.59325e+08
+Solution:9.52039e+07
+Solution:1.57304e+08
+Solution:1.36752e+08
+Solution:1.70532e+08
+Solution:2.49169e+08
+Solution:2.58024e+08
+Solution:2.50386e+08
+Initial solution quality: 2.82935e+07
+Iteration 1 [ New global best: 2.34385e+07 ]
+Iteration 2 [ New global best: 2.65497e+06 ]
+Iteration 3 [ New global best: 1.13674e+06 ]
+Iteration 4 [ New global best: 1.06962e+06 ]
+Iteration 5 [ New global best: 805150 ]
+Iteration 7 [ New global best: 652656 ]
+Iteration 8 [ New global best: 533502 ]
+Iteration 11 [ New global best: 532248 ]
+Iteration 12 [ New global best: 507716 ]
+Iteration 13 [ New global best: 279856 ]
+Iteration 15 [ New global best: 224096 ]
+Iteration 18 [ New global best: 223230 ]
+Iteration 20 [ New global best: 189292 ]
+Iteration 21 [ New global best: 157907 ]
+Iteration 22 [ New global best: 139560 ]
+Iteration 23 [ New global best: 110069 ]
+Iteration 26 [ New global best: 105098 ]
+Iteration 30 [ New global best: 91681.7 ]
+Iteration 32 [ New global best: 89584.8 ]
+Iteration 33 [ New global best: 79002.5 ]
+Iteration 34 [ New global best: 70914.7 ]
+Iteration 35 [ New global best: 65104.9 ]
+Iteration 36 [ New global best: 51882.2 ]
+Iteration 37 [ New global best: 37431.6 ]
+Iteration 41 [ New global best: 30356 ]
+Iteration 43 [ New global best: 27082.7 ]
+Iteration 44 [ New global best: 23243.7 ]
+Iteration 45 [ New global best: 20512.5 ]
+Iteration 46 [ New global best: 18700.6 ]
+Iteration 47 [ New global best: 17756.6 ]
+Iteration 48 [ New global best: 15783 ]
+Iteration 49 [ New global best: 15097.4 ]
+Iteration 50 [ New global best: 13291.1 ]
+Iteration 51 [ New global best: 6467.1 ]
+Best: 6467.1

@@ -1,0 +1,87 @@
+
+PSO parameters:
+  particles:  50
+  topology:   0
+  function:   Rastrigin
+  dimensions: 10
+  inertia:    1
+  phi_1:      1
+  phi_2:      1
+  seed:       1253
+
+Loading Rastrigin function.
+Creating swarm.
+
+Solution:220.68
+Solution:159.018
+Solution:144.176
+Solution:138.538
+Solution:174.064
+Solution:217.902
+Solution:238.235
+Solution:153.5
+Solution:156.688
+Solution:174.663
+Solution:199.815
+Solution:188.399
+Solution:197.606
+Solution:179.461
+Solution:156.88
+Solution:152.515
+Solution:140.393
+Solution:168.343
+Solution:178.795
+Solution:228.879
+Solution:132.452
+Solution:248.509
+Solution:170.094
+Solution:159.133
+Solution:170.023
+Solution:145.469
+Solution:206.184
+Solution:221.925
+Solution:193.499
+Solution:159.372
+Solution:129.145
+Solution:164.37
+Solution:225.648
+Solution:187.649
+Solution:196.439
+Solution:199.938
+Solution:185.118
+Solution:196.772
+Solution:160.284
+Solution:223.697
+Solution:194.204
+Solution:196.746
+Solution:178.195
+Solution:220.729
+Solution:198.287
+Solution:131.153
+Solution:179.978
+Solution:185.019
+Solution:146.183
+Solution:182.886
+Initial solution quality: 129.145
+Iteration 1 [ New global best: 95.8138 ]
+Iteration 2 [ New global best: 91.7557 ]
+Iteration 3 [ New global best: 89.6407 ]
+Iteration 4 [ New global best: 83.4181 ]
+Iteration 8 [ New global best: 80.9459 ]
+Iteration 15 [ New global best: 77.6962 ]
+Iteration 19 [ New global best: 72.12 ]
+Iteration 23 [ New global best: 71.6689 ]
+Iteration 24 [ New global best: 71.1129 ]
+Iteration 25 [ New global best: 69.4964 ]
+Iteration 28 [ New global best: 66.3097 ]
+Iteration 29 [ New global best: 64.8353 ]
+Iteration 34 [ New global best: 64.6417 ]
+Iteration 35 [ New global best: 60.9505 ]
+Iteration 40 [ New global best: 60.843 ]
+Iteration 41 [ New global best: 60.3137 ]
+Iteration 43 [ New global best: 60.2531 ]
+Iteration 44 [ New global best: 60.0859 ]
+Iteration 46 [ New global best: 60.059 ]
+Iteration 48 [ New global best: 59.9423 ]
+Iteration 50 [ New global best: 59.34 ]
+Best: 59.34

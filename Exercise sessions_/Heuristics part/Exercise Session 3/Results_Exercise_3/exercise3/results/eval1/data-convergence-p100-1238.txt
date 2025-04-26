@@ -1,0 +1,123 @@
+
+PSO parameters:
+  particles:  100
+  topology:   1
+  function:   Rastrigin
+  dimensions: 10
+  inertia:    1
+  phi_1:      1
+  phi_2:      1
+  seed:       1238
+
+Loading Rastrigin function.
+Creating swarm.
+
+Solution:170.127
+Solution:168.875
+Solution:183.929
+Solution:220.101
+Solution:236.368
+Solution:242.135
+Solution:211.261
+Solution:200.947
+Solution:266.88
+Solution:155.71
+Solution:207.447
+Solution:240.801
+Solution:158.406
+Solution:237.191
+Solution:180.685
+Solution:189.327
+Solution:205.824
+Solution:208.042
+Solution:170.853
+Solution:165.914
+Solution:205.838
+Solution:177.093
+Solution:236.55
+Solution:180.394
+Solution:149.553
+Solution:192.682
+Solution:222.367
+Solution:195.575
+Solution:217.34
+Solution:202.726
+Solution:189.397
+Solution:216.878
+Solution:161.676
+Solution:177.431
+Solution:217.824
+Solution:213.591
+Solution:201.107
+Solution:193.305
+Solution:197.704
+Solution:145.982
+Solution:194.33
+Solution:177.993
+Solution:212.067
+Solution:181.828
+Solution:195.422
+Solution:176.7
+Solution:207.049
+Solution:242.292
+Solution:140.542
+Solution:210.425
+Solution:232.532
+Solution:165.951
+Solution:170.373
+Solution:174.995
+Solution:262.735
+Solution:160.185
+Solution:135.964
+Solution:148.911
+Solution:160.646
+Solution:197.17
+Solution:186.828
+Solution:215.83
+Solution:228.289
+Solution:163.769
+Solution:171.833
+Solution:224.436
+Solution:140.679
+Solution:189.814
+Solution:172.988
+Solution:142.585
+Solution:187.077
+Solution:210.986
+Solution:194.576
+Solution:163.356
+Solution:226.81
+Solution:164.02
+Solution:192.194
+Solution:162.506
+Solution:151.566
+Solution:180.443
+Solution:246.729
+Solution:171.01
+Solution:165.233
+Solution:192.295
+Solution:136.77
+Solution:190.079
+Solution:230.383
+Solution:199.393
+Solution:146.559
+Solution:182.79
+Solution:215.124
+Solution:151.835
+Solution:182.955
+Solution:208.735
+Solution:184.275
+Solution:168.234
+Solution:213.619
+Solution:166.581
+Solution:216.85
+Solution:192.245
+Initial solution quality: 135.964
+Iteration 1 [ New global best: 81.1419 ]
+Iteration 6 [ New global best: 60.9933 ]
+Iteration 12 [ New global best: 54.3411 ]
+Iteration 16 [ New global best: 54.2662 ]
+Iteration 24 [ New global best: 50.3294 ]
+Iteration 26 [ New global best: 49.2074 ]
+Iteration 35 [ New global best: 47.7989 ]
+Best: 47.7989

@@ -1,0 +1,48 @@
+
+PSO parameters:
+  particles:  20
+  topology:   2
+  function:   Rosenbrock
+  dimensions: 10
+  inertia:    1
+  phi_1:      0.3
+  phi_2:      0.5
+  seed:       1239
+
+Loading Rosenbrock function.
+Creating swarm.
+
+Solution:3.68137e+08
+Solution:1.61244e+08
+Solution:4.61473e+07
+Solution:2.16026e+08
+Solution:1.02538e+08
+Solution:1.4043e+08
+Solution:1.95906e+08
+Solution:1.66059e+08
+Solution:2.59689e+08
+Solution:1.96293e+08
+Solution:9.31592e+07
+Solution:1.74516e+08
+Solution:1.2805e+08
+Solution:2.34675e+08
+Solution:6.827e+07
+Solution:1.42979e+08
+Solution:1.45545e+08
+Solution:8.03877e+07
+Solution:1.77623e+08
+Solution:7.67101e+07
+Initial solution quality: 4.61473e+07
+Iteration 1 [ New global best: 4.38874e+06 ]
+Iteration 13 [ New global best: 4.09708e+06 ]
+Iteration 15 [ New global best: 1.39761e+06 ]
+Iteration 17 [ New global best: 343635 ]
+Iteration 24 [ New global best: 275118 ]
+Iteration 30 [ New global best: 263102 ]
+Iteration 32 [ New global best: 149060 ]
+Iteration 37 [ New global best: 144441 ]
+Iteration 38 [ New global best: 95394.8 ]
+Iteration 44 [ New global best: 93378.6 ]
+Iteration 48 [ New global best: 76476.6 ]
+Iteration 49 [ New global best: 64948.6 ]
+Best: 64948.6

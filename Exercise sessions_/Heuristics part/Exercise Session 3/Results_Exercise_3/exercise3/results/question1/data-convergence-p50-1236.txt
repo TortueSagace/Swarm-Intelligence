@@ -1,0 +1,83 @@
+
+PSO parameters:
+  particles:  50
+  topology:   0
+  function:   Rastrigin
+  dimensions: 10
+  inertia:    1
+  phi_1:      1
+  phi_2:      1
+  seed:       1236
+
+Loading Rastrigin function.
+Creating swarm.
+
+Solution:256.71
+Solution:205.821
+Solution:165.066
+Solution:183.674
+Solution:168.445
+Solution:150.926
+Solution:143.572
+Solution:171.635
+Solution:191.004
+Solution:158.846
+Solution:135.199
+Solution:216.396
+Solution:171.476
+Solution:155.885
+Solution:151.604
+Solution:167.839
+Solution:203.814
+Solution:178.095
+Solution:173.305
+Solution:206.521
+Solution:205.444
+Solution:256.08
+Solution:206.476
+Solution:193.322
+Solution:139.109
+Solution:183.844
+Solution:158.041
+Solution:199.516
+Solution:219.889
+Solution:181.072
+Solution:170.049
+Solution:144.844
+Solution:163.512
+Solution:205.6
+Solution:249.272
+Solution:235.022
+Solution:220.535
+Solution:238.205
+Solution:166.046
+Solution:202.833
+Solution:230.467
+Solution:173.436
+Solution:217.84
+Solution:150.835
+Solution:153.841
+Solution:176.523
+Solution:176.254
+Solution:133.601
+Solution:166.788
+Solution:246.969
+Initial solution quality: 133.601
+Iteration 1 [ New global best: 77.9864 ]
+Iteration 5 [ New global best: 71.2169 ]
+Iteration 12 [ New global best: 62.8975 ]
+Iteration 19 [ New global best: 60.2142 ]
+Iteration 24 [ New global best: 59.5382 ]
+Iteration 30 [ New global best: 59.2988 ]
+Iteration 32 [ New global best: 59.2145 ]
+Iteration 33 [ New global best: 58.4695 ]
+Iteration 35 [ New global best: 57.6317 ]
+Iteration 40 [ New global best: 57.3254 ]
+Iteration 41 [ New global best: 56.804 ]
+Iteration 43 [ New global best: 56.3314 ]
+Iteration 45 [ New global best: 56.2814 ]
+Iteration 46 [ New global best: 53.4803 ]
+Iteration 48 [ New global best: 51.4089 ]
+Iteration 49 [ New global best: 49.9445 ]
+Iteration 50 [ New global best: 44.8773 ]
+Best: 44.8773
